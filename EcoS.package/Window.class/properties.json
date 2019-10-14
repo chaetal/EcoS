@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"mainWindow"
+		"mainWindow",
+		"myWidth",
+		"myHeight"
 	],
 	"name" : "Window",
 	"type" : "normal"

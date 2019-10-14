@@ -1,4 +1,4 @@
 instance creation
 open
 	"Open window"
-	mainWindow openInWorldExtent: 1600@1000
+	mainWindow openInWorldExtent: myWidth@myHeight
