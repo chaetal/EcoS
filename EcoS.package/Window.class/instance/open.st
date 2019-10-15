@@ -1,4 +1,3 @@
 instance creation
 open
-	"Open window"
-	mainWindow openInWorldExtent: myWidth@myHeight
+	self openInWorldExtent: self width@self height .

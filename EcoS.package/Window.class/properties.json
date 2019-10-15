@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Morph",
+	"super" : "SystemWindow",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"mainWindow",
-		"myWidth",
-		"myHeight"
-	],
+	"instvars" : [ ],
 	"name" : "Window",
 	"type" : "normal"
 }
