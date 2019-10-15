@@ -1,7 +1,7 @@
 instance creation
 width: aWidth height: aHeight
-	|mainWindow|
+	| mainWindow |
 	mainWindow := self new.
-	mainWindow width: aWidth.  
-	mainWindow height:aHeight .
-	^ mainWindow .
+	mainWindow width: aWidth.
+	mainWindow height: aHeight.
+	^ mainWindow

@@ -1,5 +1,5 @@
 initialization
-initialize 
+initialize
 	super initialize.
 	self setLabel: 'EcoS'.
-	^self. 
+	^ self
