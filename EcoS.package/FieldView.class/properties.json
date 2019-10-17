@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "PavelKopylov 10/18/2019 00:40",
+	"super" : "Object",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"drawPosition"
+	],
+	"instvars" : [
+		"window",
+		"field",
+		"fieldWidth",
+		"fieldHeight",
+		"cellSize"
+	],
+	"name" : "FieldView",
+	"type" : "normal"
+}

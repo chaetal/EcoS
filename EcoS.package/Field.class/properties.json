@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "PavelKopylov 10/18/2019 00:44",
-	"super" : "SystemWindow",
+	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Window",
+	"instvars" : [
+		"numberOfVerticalCells",
+		"numberOfHorizontalCells"
+	],
+	"name" : "Field",
 	"type" : "normal"
 }

@@ -1,0 +1,3 @@
+accessing
+numberOfHorizontalCells
+	^ 50
