@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Niko 10/18/2019 23:01",
+	"super" : "SimpleButtonMorph",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mouseAction"
+	],
+	"name" : "EcoSStepButton",
+	"type" : "normal"
+}
