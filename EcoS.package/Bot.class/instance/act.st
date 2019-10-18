@@ -1,6 +1,7 @@
 action
 act
-	| currGene |
-	currGene := genome at: head.
-	currGene execute .
-	head := head + 1 .
+	| currentGene |
+	head peek isNil
+		ifTrue: [ head reset ].
+	currentGene := genome at: (head next).
+	currentGene execute

@@ -1,6 +1,6 @@
 initialization
 initialize
 	super initialize .
-	genome := OrderedCollection new . " collection of genes(actions) "
-	head := 1 .
+	genome := OrderedCollection new . " заглушка для генерации генома "
+	head := ReadStream on: (1 to: (genome size)).
 	
