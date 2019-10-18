@@ -1,3 +1,3 @@
 setter
-x: aX 
-	x := aX.
+x: aX
+	x := aX
