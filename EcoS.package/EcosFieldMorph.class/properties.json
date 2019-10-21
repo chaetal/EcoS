@@ -4,12 +4,9 @@
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"drawPosition"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"field",
-		"fieldSize",
 		"cellSize"
 	],
 	"name" : "EcosFieldMorph",

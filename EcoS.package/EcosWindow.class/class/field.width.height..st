@@ -4,5 +4,5 @@ field: aField width: aWidth height: aHeight
 	mainWindow := self new
 		width: aWidth;
 		height: aHeight.
-	mainWindow addFieldMorph: aField.
+	mainWindow addMorph: (mainWindow createFieldMorph: aField).
 	^ mainWindow
