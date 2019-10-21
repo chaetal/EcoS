@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Field",
+	"instvars" : [
+		"x",
+		"y"
+	],
+	"name" : "EcosBot",
 	"type" : "normal"
 }

@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"x",
-		"y"
-	],
-	"name" : "Bot",
+	"instvars" : [ ],
+	"name" : "EcosField",
 	"type" : "normal"
 }
