@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"mouseAction"
-	],
-	"name" : "EcoSStepButton",
+	"instvars" : [ ],
+	"name" : "EcosStepButton",
 	"type" : "normal"
 }
