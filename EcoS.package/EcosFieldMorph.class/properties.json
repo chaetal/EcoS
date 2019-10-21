@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "PavelKopylov 10/18/2019 00:40",
-	"super" : "Object",
+	"super" : "Morph",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,12 +8,10 @@
 		"drawPosition"
 	],
 	"instvars" : [
-		"window",
 		"field",
-		"fieldWidth",
-		"fieldHeight",
+		"fieldSize",
 		"cellSize"
 	],
-	"name" : "FieldView",
+	"name" : "EcosFieldMorph",
 	"type" : "normal"
 }

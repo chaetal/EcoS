@@ -1,3 +1,0 @@
-accessing
-fieldWidth
-	^ fieldWidth

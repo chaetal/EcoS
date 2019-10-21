@@ -1,3 +1,0 @@
-accessing
-numberOfVerticalCells
-	^ 50
