@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "Genome",
+	"name" : "EcosGenome",
 	"type" : "normal"
 }

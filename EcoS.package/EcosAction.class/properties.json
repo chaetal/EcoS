@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "Action",
+	"name" : "EcosAction",
 	"type" : "normal"
 }

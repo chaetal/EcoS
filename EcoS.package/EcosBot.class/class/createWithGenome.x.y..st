@@ -1,6 +1,6 @@
 instance creation
 createWithGenome: aGenome x: aX y: aY
-	|bot|
+	| bot |
 	bot := self new.
 	bot genome: aGenome.
 	bot x: aX.
