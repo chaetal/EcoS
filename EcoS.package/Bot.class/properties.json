@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "ArtyomBalashov 10/18/2019 21:25",
+	"commentStamp" : "ArtyomBalashov 10/21/2019 18:55",
 	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"genome"
+		"genome",
+		"x",
+		"y"
 	],
-	"name" : "Organism",
+	"name" : "Bot",
 	"type" : "normal"
 }
