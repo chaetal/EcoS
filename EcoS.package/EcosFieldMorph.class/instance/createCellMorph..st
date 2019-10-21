@@ -6,4 +6,4 @@ createCellMorph: point
 		height: cellSize;
 		borderWidth: 1;
 		borderColor: Color lightBlue;
-		position: point x @ point y
+		position: point
