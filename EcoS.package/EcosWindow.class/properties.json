@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "EcosWindow",
+	"name" : "EcoSWindow",
 	"type" : "normal"
 }
