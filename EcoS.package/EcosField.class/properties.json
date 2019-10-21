@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"numberOfCells"
+		"dimensions"
 	],
 	"name" : "EcosField",
 	"type" : "normal"

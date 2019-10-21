@@ -2,11 +2,10 @@ initialization
 windowSize: aWindowSize field: aField 
 	self
 		field: aField;
-		color: Color white;
-		cellSize: aWindowSize x / aField numberOfCells x;
+		cellSize: aWindowSize x / aField dimensions x;
 		fieldSize:
-			(cellSize * aField numberOfCells x)
-				@ (cellSize * aField numberOfCells y - drawPosition y);
+			(cellSize * aField dimensions x)
+				@ (cellSize * aField dimensions y - drawPosition y);
 		extent: (self fieldSize x  @ self fieldSize y);
 		position: drawPosition.
 	self draw

@@ -1,3 +1,3 @@
 accessing
-numberOfCells
+dimensions
 	^ 20 @ 20
