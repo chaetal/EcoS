@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "ArtyomBalashov 10/21/2019 17:36",
+	"super" : "ReadStream",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EcosGenome",
+	"type" : "normal"
+}

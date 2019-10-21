@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"genome",
+		"x",
+		"y"
+	],
+	"name" : "EcosBot",
+	"type" : "normal"
+}
