@@ -1,4 +1,4 @@
-instance initalization
+instance creation
 createFieldMorph: aField
 	^ EcosFieldMorph
 		windowSize: self width @ self height
