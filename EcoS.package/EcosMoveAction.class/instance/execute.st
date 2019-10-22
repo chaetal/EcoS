@@ -1,3 +1,3 @@
 execution
 execute
-	bot move: dx @ dy .
+	bot moveBy: dx @ dy
