@@ -1,9 +1,6 @@
 canvas drawing
-createCellMorph: point
+createCellMorph: aPoint
 	^ EcosCellMorph new
-		color: (Color cyan alpha: 0.5);
 		width: cellSize;
 		height: cellSize;
-		borderWidth: 1;
-		borderColor: Color lightBlue;
-		position: point
+		position: aPoint
