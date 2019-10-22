@@ -1,3 +1,3 @@
 execution
 execute
-	bot moveBy: dx @ dy
+	bot moveBy: direction
