@@ -4,4 +4,5 @@ width: aWidth height: aHeight
 	mainWindow := self new.
 	mainWindow width: aWidth.
 	mainWindow height: aHeight.
+	mainWindow addMorph: mainWindow createButtonMorph.
 	^ mainWindow
