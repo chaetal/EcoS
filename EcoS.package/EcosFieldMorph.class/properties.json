@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PavelKopylov 10/18/2019 00:40",
+	"super" : "Morph",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"field",
+		"cellSize"
+	],
+	"name" : "EcosFieldMorph",
+	"type" : "normal"
+}

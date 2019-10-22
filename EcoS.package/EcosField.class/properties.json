@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"x",
-		"y"
+		"dimensions"
 	],
-	"name" : "Bot",
+	"name" : "EcosField",
 	"type" : "normal"
 }
