@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "EcosAction",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bot",
+		"dx",
+		"dy"
+	],
+	"name" : "EcosMoveAction",
+	"type" : "normal"
+}
