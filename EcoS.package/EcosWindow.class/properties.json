@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SystemWindow",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"field"
+	],
+	"name" : "EcosWindow",
+	"type" : "normal"
+}
