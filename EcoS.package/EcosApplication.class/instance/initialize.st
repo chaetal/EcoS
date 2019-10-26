@@ -1,6 +1,7 @@
 initialization
 initialize
 	super initialize.
-	self initializeField.
-	self initializeUI.
+	self
+		initializeField;
+		initializeUI.
 	window open
