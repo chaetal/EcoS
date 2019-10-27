@@ -1,3 +1,3 @@
 setter
 x: aX
-	x := aX
+	position := aX@position y

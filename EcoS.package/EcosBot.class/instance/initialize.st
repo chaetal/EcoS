@@ -1,5 +1,4 @@
 intialization
 initialize
 	super initialize.
-	x := 0.
-	y := 0
+	position := 0@0

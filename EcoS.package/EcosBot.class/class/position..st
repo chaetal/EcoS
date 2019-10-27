@@ -1,6 +1,5 @@
 instance creation
-x: aX y: aY
+position: aPoint
 	^ self new
-		x: aX;
-		y: aY;
+		position: aPoint;
 		genome: (EcosGenome on: EcosGenomeGenerator generate)
