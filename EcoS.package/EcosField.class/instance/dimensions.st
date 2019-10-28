@@ -1,3 +1,3 @@
 accessing
 dimensions
-	^ 100 @ 100
+	^ 20 @ 20
