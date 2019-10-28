@@ -1,7 +1,6 @@
 initialization
 initialize
 	super initialize.
-	self
-		initializeField;
-		initializeUI.
-	window open
+	field := EcosField new.
+	window := EcosWindow field: field width: 800 height: 600.
+	
