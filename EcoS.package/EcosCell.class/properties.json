@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "PavelKopylov 10/27/2019 22:27",
+	"commentStamp" : "PavelKopylov 10/23/2019 22:21",
 	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cellMatrix"
+		"field",
+		"bot",
+		"position"
 	],
-	"name" : "EcosField",
+	"name" : "EcosCell",
 	"type" : "normal"
 }
