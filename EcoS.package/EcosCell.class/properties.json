@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bot"
+		"field",
+		"bot",
+		"position"
 	],
 	"name" : "EcosCell",
 	"type" : "normal"
