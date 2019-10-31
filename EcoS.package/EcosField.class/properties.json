@@ -1,12 +1,12 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PavelKopylov 10/27/2019 22:27",
 	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"dimensions"
+		"cellMatrix"
 	],
 	"name" : "EcosField",
 	"type" : "normal"

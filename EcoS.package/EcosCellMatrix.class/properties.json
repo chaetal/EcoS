@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PavelKopylov 10/27/2019 00:17",
+	"super" : "Array2D",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EcosCellMatrix",
+	"type" : "normal"
+}
