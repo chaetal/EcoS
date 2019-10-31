@@ -1,0 +1,3 @@
+action
+doStep
+	self realizeIntentions

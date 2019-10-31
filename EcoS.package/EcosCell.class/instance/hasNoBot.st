@@ -1,0 +1,3 @@
+testing
+hasNoBot
+	^ bot isNil

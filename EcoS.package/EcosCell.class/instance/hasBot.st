@@ -1,0 +1,3 @@
+testing
+hasBot
+	^ bot notNil

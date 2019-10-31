@@ -1,3 +1,6 @@
 action
 act
-	genome next execute
+	| action intention |
+	action := genome next.
+	intention := EcosIntention of: self to: action.
+	cell field accept: intention
