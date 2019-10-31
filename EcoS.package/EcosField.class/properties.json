@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cellMatrix"
+		"cellMatrix",
+		"intentions"
 	],
 	"name" : "EcosField",
 	"type" : "normal"

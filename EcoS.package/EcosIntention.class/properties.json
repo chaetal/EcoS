@@ -1,14 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PavelKopylov 10/30/2019 23:08",
 	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"genome",
-		"cell"
+		"bot",
+		"action"
 	],
-	"name" : "EcosBot",
+	"name" : "EcosIntention",
 	"type" : "normal"
 }

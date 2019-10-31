@@ -1,5 +1,5 @@
 instance creation
-position: aPoint
+createInsideCell: aCell
 	^ self new
-		position: aPoint;
+		cell: aCell;
 		genome: EcosGenomeGenerator generate

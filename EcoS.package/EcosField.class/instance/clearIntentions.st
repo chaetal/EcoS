@@ -1,0 +1,3 @@
+clearing
+clearIntentions
+	intentions removeAll
