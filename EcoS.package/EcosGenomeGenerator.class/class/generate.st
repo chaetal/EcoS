@@ -3,4 +3,4 @@ generate
 	| genomeList |
 	genomeList := OrderedCollection new.
 	genomeList add: (EcosMoveAction direction: 1 @ 0).
-	^ genomeList
+	^ EcosGenome on: genomeList
