@@ -1,4 +1,4 @@
-processing
+requesting
 requestForIntentions
 	cellMatrix
 		do: [ :line | 
