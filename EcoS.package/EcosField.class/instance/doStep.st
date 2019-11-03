@@ -1,3 +1,3 @@
 action
 doStep
-	self realizeIntentions
+	self fulfillIntentions: self collectIntentions 

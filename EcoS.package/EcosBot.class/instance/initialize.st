@@ -1,4 +1,4 @@
-intialization
+initialization
 initialize
 	super initialize.
-	genome := EcosGenome on: OrderedCollection new
+	self genome: EcosGenomeGenerator generate

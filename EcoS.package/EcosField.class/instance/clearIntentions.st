@@ -1,3 +1,0 @@
-clearing
-clearIntentions
-	intentions removeAll
