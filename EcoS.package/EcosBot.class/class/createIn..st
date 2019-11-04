@@ -1,3 +1,3 @@
 instance creation
 createIn: aCell
-	^ self new cell: aCell
+	^ self createIn: aCell withGenome: EcosGenomeGenerator generate
