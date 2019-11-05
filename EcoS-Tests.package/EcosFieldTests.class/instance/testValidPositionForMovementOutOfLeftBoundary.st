@@ -1,5 +1,5 @@
 tests
-testValidPositionForMovementBotWhenXOutOfField2
+testValidPositionForMovementOutOfLeftBoundary
 	| field cell bot newPosition |
 	newPosition := 2 @ 1.
 	field := EcosField createWithDimensions: 2 @ 2.
