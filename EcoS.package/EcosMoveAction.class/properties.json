@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bot",
 		"direction"
 	],
 	"name" : "EcosMoveAction",

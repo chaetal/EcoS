@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"genome",
-		"cell"
+		"field",
+		"window"
 	],
-	"name" : "EcosBot",
+	"name" : "EcosApplication",
 	"type" : "normal"
 }

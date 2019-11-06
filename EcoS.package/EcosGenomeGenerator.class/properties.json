@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"genome",
-		"cell"
-	],
-	"name" : "EcosBot",
+	"instvars" : [ ],
+	"name" : "EcosGenomeGenerator",
 	"type" : "normal"
 }

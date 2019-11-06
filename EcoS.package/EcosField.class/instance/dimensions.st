@@ -1,3 +1,3 @@
 accessing
 dimensions
-	^ 20 @ 20
+	^ cellMatrix dimensions
