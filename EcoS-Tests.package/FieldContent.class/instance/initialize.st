@@ -1,3 +1,3 @@
-as yet unclassified
+initialize
 initialize
 	isValid := true

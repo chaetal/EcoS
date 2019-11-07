@@ -21,9 +21,3 @@ testOneStepWithConflictAndTwoBotUsingMoveAction
 		has: botB in: (field cellMatrix atPosition: botBNewPosition);
 		hasNothingIn: cellA;
 		yourself) should be isValid
-
-	"
-	self assert: (cellB) bot equals: botA.
-	self assert: (field cellMatrix atPosition: botBNewPosition) bot equals: botB.
-	self assert: (cellA) bot isNil.
-	"

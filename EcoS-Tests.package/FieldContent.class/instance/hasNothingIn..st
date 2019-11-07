@@ -1,3 +1,3 @@
-as yet unclassified
+controlling
 hasNothingIn: anEcosCell
 	self has: nil in: anEcosCell
