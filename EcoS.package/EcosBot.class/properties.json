@@ -1,13 +1,16 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PavelKopylov 11/8/2019 01:03",
 	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"MaxHealth"
+	],
 	"instvars" : [
 		"genome",
-		"cell"
+		"cell",
+		"health"
 	],
 	"name" : "EcosBot",
 	"type" : "normal"
