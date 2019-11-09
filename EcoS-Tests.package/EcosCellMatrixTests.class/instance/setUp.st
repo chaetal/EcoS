@@ -1,8 +1,4 @@
-setup
+running
 setUp
-	| size |
-	size := 6 @ 4.
-	field := EcosField createWithDimensions: size.
-	cellMatrix := EcosCellMatrix
-		createWithDimensions: size
-		andField: field.
+	super setUp.
+	field := EcosField createWithDimensions: 6 @ 4.
