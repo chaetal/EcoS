@@ -2,9 +2,7 @@
 	"commentStamp" : "PavelKopylov 10/23/2019 22:21",
 	"super" : "Object",
 	"category" : "EcoS",
-	"classinstvars" : [
-		"field"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
