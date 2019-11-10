@@ -1,6 +1,5 @@
 tests
 testСellСontainsEnergy
-	| field cell|
-	field := EcosField createWithDimensions: 5 @ 5.
-	cell := (field cellMatrix atPosition: 2@2) energy.
-	self assert: cell equals: 10.
+	| actualResult |
+	actualResult := (field cellMatrix atPosition: 1 @ 1) energy.
+	actualResult should be notNil
