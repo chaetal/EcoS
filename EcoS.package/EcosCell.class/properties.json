@@ -2,13 +2,16 @@
 	"commentStamp" : "PavelKopylov 10/23/2019 22:21",
 	"super" : "Object",
 	"category" : "EcoS",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"field"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"field",
 		"bot",
-		"position"
+		"position",
+		"energy"
 	],
 	"name" : "EcosCell",
 	"type" : "normal"
