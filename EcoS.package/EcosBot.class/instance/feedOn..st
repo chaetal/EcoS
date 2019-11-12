@@ -1,3 +1,3 @@
 action
 feedOn: anEnergy
-	health := health + anEnergy
+	energy := energy + anEnergy

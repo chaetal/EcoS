@@ -5,12 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"MaxHealth"
+		"MaxEnergy"
 	],
 	"instvars" : [
 		"genome",
 		"cell",
-		"health"
+		"energy"
 	],
 	"name" : "EcosBot",
 	"type" : "normal"
