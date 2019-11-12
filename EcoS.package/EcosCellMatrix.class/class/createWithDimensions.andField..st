@@ -3,4 +3,4 @@ createWithDimensions: aPoint andField: aField
 	^ self
 		rows: aPoint y
 		columns: aPoint x
-		tabulate: [ :x :y | EcosCell createWithPosition: y @ x andField: aField ]
+		tabulate: [ :y :x | EcosCell createWithPosition: x @ y andField: aField ]
