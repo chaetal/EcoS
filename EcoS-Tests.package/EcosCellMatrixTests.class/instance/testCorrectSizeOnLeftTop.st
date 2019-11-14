@@ -1,7 +1,5 @@
 tests
 testCorrectSizeOnLeftTop
-	| actualResult point cell |
+	| point |
 	point := 1 @ 1.
-	cell := field cellMatrix atPosition: point.
-	actualResult := cell position.
-	actualResult should equal: point
+	(self cell: point) position should equal: point
