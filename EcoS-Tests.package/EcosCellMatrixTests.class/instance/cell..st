@@ -1,5 +1,5 @@
 private-structure
 cell: aPoint
-    | cell |
+	| cell |
 	cell := field cellMatrix atPosition: aPoint.
 	^ cell
