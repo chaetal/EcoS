@@ -8,8 +8,9 @@
 	"instvars" : [
 		"field",
 		"cell",
-		"action"
+		"action",
+		"bot"
 	],
-	"name" : "EcosEnergyTests",
+	"name" : "EcosBotTests",
 	"type" : "normal"
 }
