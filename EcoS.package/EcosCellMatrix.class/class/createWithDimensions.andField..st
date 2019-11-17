@@ -1,7 +1,6 @@
 instance creation
 createWithDimensions: aPoint andField: aField
 	^ self
-		rows: aPoint x
-		columns: aPoint y
-		tabulate:
-			[ :x :y | EcosCell createWithPosition: x @ y andField: aField andEnergy: 5 ]
+		rows: aPoint y
+		columns: aPoint x
+		tabulate: [ :y :x | EcosCell createWithPosition: x @ y andField: aField andEnergy: 5 ]

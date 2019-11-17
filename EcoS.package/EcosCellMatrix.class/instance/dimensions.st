@@ -1,3 +1,3 @@
 accessing
 dimensions
-	^ numberOfRows @ numberOfColumns
+	^  numberOfColumns @ numberOfRows
