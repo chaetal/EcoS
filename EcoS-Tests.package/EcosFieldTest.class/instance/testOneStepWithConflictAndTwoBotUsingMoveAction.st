@@ -1,4 +1,4 @@
-test
+tests
 testOneStepWithConflictAndTwoBotUsingMoveAction
 	| cellA cellB botA botB botAPosition botBPosition botBNewPosition |
 	botAPosition := 1 @ 1.
@@ -13,9 +13,7 @@ testOneStepWithConflictAndTwoBotUsingMoveAction
 	botB := EcosBot
 		createIn: cellB
 		withGenome: (EcosGenome on: {(EcosMoveAction direction: 0 @ 1)}).
-
 	field doStep.
-
 	(field content
 		has: botA in: cellB;
 		has: botB in: (field cellMatrix atPosition: botBNewPosition);
