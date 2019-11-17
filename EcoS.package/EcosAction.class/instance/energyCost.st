@@ -1,3 +1,3 @@
 accessing
 energyCost
-	^ 1
+	self subclassResponsibility
