@@ -7,8 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"field",
-		"bot"
+		"action",
+		"bot",
+		"cell"
 	],
-	"name" : "EcosFieldTest",
+	"name" : "EcosMoveActionTests",
 	"type" : "normal"
 }

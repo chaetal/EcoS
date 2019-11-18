@@ -15,4 +15,4 @@ testOneStepWithUnsolvableConflictAndTwoBotUsingMoveAction
 	(field content
 		has: botA in: cellA;
 		has: botB in: cellB;
-		yourself) isValid
+		yourself) should be isValid

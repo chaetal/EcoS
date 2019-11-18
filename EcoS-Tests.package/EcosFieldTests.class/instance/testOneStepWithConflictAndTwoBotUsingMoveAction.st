@@ -4,7 +4,6 @@ testOneStepWithConflictAndTwoBotUsingMoveAction
 	botAPosition := 1 @ 1.
 	botBPosition := 2 @ 1.
 	botBNewPosition := 2 @ 2.
-	field := EcosField createWithDimensions: 2 @ 2.
 	cellA := field cellMatrix atPosition: botAPosition.
 	cellB := field cellMatrix atPosition: botBPosition.
 	botA := EcosBot
