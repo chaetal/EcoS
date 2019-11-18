@@ -1,9 +1,11 @@
 canvas drawing
 draw
-	field cellMatrix
-		do: [ :cell | 
+	self announcer 
+		when: BotAddedAnnouncement
+		do: [ :announcement | 
+			Transcript show: 'Eeeaaaaah!' .
 			self
 				addMorph:
 					(self
-						createCellMorph: cell
-						withPosition: (self calculatePosition: cell position)) ]
+						createCellMorph: announcement newCell
+						withPosition: (self calculatePosition: announcement newCell position)) ]

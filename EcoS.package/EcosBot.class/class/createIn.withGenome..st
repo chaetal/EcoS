@@ -1,5 +1,8 @@
 instance creation
 createIn: aCell withGenome: aGenome
-	^ self new
+	| tmpBot |
+	tmpBot := self new
 		cell: aCell;
-		genome: aGenome
+		genome: aGenome.
+	tmpBot announcer announce: (BotAddedAnnouncement withNewCell: aCell) .
+	^ tmpBot 

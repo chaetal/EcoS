@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Announcement",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"genome",
-		"cell",
-		"announcer"
+		"newCell"
 	],
-	"name" : "EcosBot",
+	"name" : "BotAddedAnnouncement",
 	"type" : "normal"
 }
