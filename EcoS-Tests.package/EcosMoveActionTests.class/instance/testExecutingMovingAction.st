@@ -3,7 +3,6 @@ testExecutingMovingAction
 	| oldPosition newPosition |
 	oldPosition := 1 @ 1.
 	newPosition := 2 @ 2.
-	bot := EcosBot createIn: cell.
 	action executeFor: bot within: field.
 	(field content
 		has: bot in: (field cellMatrix atPosition: newPosition);
