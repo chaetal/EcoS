@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
+	"super" : "Object",
 	"category" : "EcoS-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"field",
-		"bot"
+		"isValid"
 	],
-	"name" : "EcosFieldTests",
+	"name" : "FieldContent",
 	"type" : "normal"
 }

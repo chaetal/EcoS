@@ -1,11 +1,10 @@
 tests
 testExecutingMovingAction
-	| bot oldPosition newPosition |
+	| oldPosition newPosition |
 	oldPosition := 1 @ 1.
 	newPosition := 2 @ 2.
-	bot := EcosBot createIn: cell.
 	action executeFor: bot within: field.
-	self
-		assert: (field cellMatrix atPosition: newPosition) bot
-		equals: bot.
-	self assert: (field cellMatrix atPosition: oldPosition) bot isNil
+	(field content
+		has: bot in: (field cellMatrix atPosition: newPosition);
+		hasNothingIn: (field cellMatrix atPosition: oldPosition);
+		yourself) should be isValid
