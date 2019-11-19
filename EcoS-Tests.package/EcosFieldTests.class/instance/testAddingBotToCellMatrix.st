@@ -1,7 +1,8 @@
-test
+tests
 testAddingBotToCellMatrix
-	| field position |
-	field := EcosField createWithDimensions: 5 @ 5.
-	position := 2 @ 3.
+	| position |
+	position := 1 @ 1.
 	field addBotOnPos: position.
-	self assert: (field cellMatrix atPosition: position) bot notNil
+	(field content
+		hasBotAtCell: (field cellMatrix atPosition: position);
+		yourself) should be isValid
