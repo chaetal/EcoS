@@ -1,5 +1,5 @@
 tests
-testAddingButton
+testButtonInitialize
 	| button |
 	button := EcosStepButton new.
-	self assert: button notNil.
+	button should be notNil.

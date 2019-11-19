@@ -1,5 +1,5 @@
 tests
-testGenomeGeneratorGenerate
+testGenomeGenerates
 	| genome |
 	genome := EcosGenomeGenerator generate.
-	self assert: genome notNil.
+	genome should be notNil.
