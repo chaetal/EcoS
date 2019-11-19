@@ -4,5 +4,4 @@ createIn: aCell withGenome: aGenome
 	tmpBot := self new
 		cell: aCell;
 		genome: aGenome.
-	tmpBot announcer announce: (BotAddedAnnouncement withNewCell: aCell) .
 	^ tmpBot 

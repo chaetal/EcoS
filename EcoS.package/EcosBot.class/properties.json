@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"genome",
-		"cell",
-		"announcer"
+		"cell"
 	],
 	"name" : "EcosBot",
 	"type" : "normal"
