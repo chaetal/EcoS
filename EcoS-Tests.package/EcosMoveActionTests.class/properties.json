@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"field",
+		"action",
+		"bot",
+		"cell"
+	],
 	"name" : "EcosMoveActionTests",
 	"type" : "normal"
 }

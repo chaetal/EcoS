@@ -1,3 +1,3 @@
 accessing
 atPosition: aPoint
-	^ self at: aPoint x at: aPoint y
+	^ self at: aPoint y at: aPoint x
