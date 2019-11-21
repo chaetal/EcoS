@@ -1,0 +1,3 @@
+testing
+energyOverflowed
+	^ energy >= MaxEnergy
