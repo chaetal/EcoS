@@ -10,7 +10,8 @@
 	"instvars" : [
 		"genome",
 		"cell",
-		"energy"
+		"energy",
+		"lifeTrack"
 	],
 	"name" : "EcosBot",
 	"type" : "normal"
