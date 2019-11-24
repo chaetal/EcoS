@@ -2,4 +2,4 @@ tests
 testGenomeEmpty
 	| genome |
 	genome := EcosGenome on: {}.
-	genome next should equal: nil.
+	genome next should equal: nil

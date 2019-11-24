@@ -2,4 +2,4 @@ tests
 testGenomeGenerates
 	| genome |
 	genome := EcosGenomeGenerator generate.
-	genome should be notNil.
+	genome should be notNil
