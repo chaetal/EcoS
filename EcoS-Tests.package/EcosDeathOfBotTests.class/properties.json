@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bot"
+		"bot",
+		"cell"
 	],
 	"name" : "EcosDeathOfBotTests",
 	"type" : "normal"
