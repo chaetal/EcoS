@@ -3,4 +3,4 @@ createBots
 	1 to: 3 do: [ :i | 
 		1 to: 3 do: [ :j | 
 			(i = 3 and: j = 2)
-				ifFalse: [ EcosBot createIn: (cells atPosition: i @ j) ] ] ]
+				ifFalse: [ field addBotOnPos: i @ j ] ] ]

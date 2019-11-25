@@ -1,7 +1,7 @@
 action
 reproduct
 	| targetCell |
-	targetCell := cell field getFreeCellInNeighbours: cell.
-	targetCell notNil
-		ifTrue: [ cell field addBotOnPos: targetCell position ]
+	(cell field canReproductIn: cell)
+		ifTrue: [ targetCell := cell field getFreeCellFromNeighboursOf: cell.
+			cell field addBotInCell: targetCell ]
 		ifFalse: [ self die ]

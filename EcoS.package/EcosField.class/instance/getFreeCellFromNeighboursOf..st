@@ -1,7 +1,7 @@
 accessing
-getFreeCellInNeighbours: aCell
+getFreeCellFromNeighboursOf: aCell
 	| freeNeighbours |
-	freeNeighbours := self getCellFreeNeighbours: aCell.
+	freeNeighbours := self getFreeNeighboursOf: aCell.
 	freeNeighbours isEmpty
 		ifFalse: [ ^ freeNeighbours shuffled at: 1 ]
 		ifTrue: [ ^ nil ]
