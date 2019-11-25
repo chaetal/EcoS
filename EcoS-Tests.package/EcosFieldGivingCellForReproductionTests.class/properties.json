@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "EcoS-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"field",
+		"cells"
+	],
+	"name" : "EcosFieldGivingCellForReproductionTests",
+	"type" : "normal"
+}
