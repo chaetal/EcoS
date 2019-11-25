@@ -7,7 +7,7 @@ getCellFreeNeighbours: aCell
 			and: aCell position y + i <= self dimensions y)
 			ifTrue: [ -1 to: 1 do: [ :j | 
 					| newPosition newCell |
-					newPosition := aCell position + (i @ j).
+					newPosition := self getCorrectPosition: aCell position + (i @ j).
 					newCell := cellMatrix atPosition: newPosition.
 					newCell hasNoBot
 						ifTrue: [ neighbours add: newCell ] ] ] ].
