@@ -1,3 +1,3 @@
 testing
-energyOverflowed
+energyIsFull
 	^ energy >= MaxEnergy

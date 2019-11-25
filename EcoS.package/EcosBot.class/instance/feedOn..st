@@ -1,5 +1,5 @@
 action
 feedOn: anEnergy
 	energy := energy + anEnergy.
-	self energyOverflowed
+	self energyIsFull
 		ifTrue: [ self reproduct ]
