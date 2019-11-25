@@ -1,5 +1,5 @@
 test
-testGivingFreeCellForReproduction
+testGettingFreeCellForReproduction
 	| currentCell freeCell |
 	EcosBot createIn: (cells atPosition: 1 @ 1).
 	EcosBot createIn: (cells atPosition: 1 @ 2).
@@ -11,4 +11,4 @@ testGivingFreeCellForReproduction
 	EcosBot createIn: (cells atPosition: 3 @ 3).
 	currentCell := cells atPosition: 2 @ 2.
 	freeCell := cells atPosition: 3 @ 2.
-	(field giveFreeCellInUnitRadius: currentCell) should equal: freeCell
+	(field getFreeCellInNeighbours: currentCell) should equal: freeCell
