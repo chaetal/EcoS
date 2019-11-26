@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"field"
+		"field",
+		"cell"
 	],
 	"name" : "EcosCellTests",
 	"type" : "normal"
