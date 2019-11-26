@@ -1,4 +1,5 @@
 test
 testBotReproductsWhenEnergyIsFull
+	bot stub.
 	bot feedOn: 50.
-	(cells atPosition: 3 @ 2) hasBot should equal: true
+	bot should receive reproduct 

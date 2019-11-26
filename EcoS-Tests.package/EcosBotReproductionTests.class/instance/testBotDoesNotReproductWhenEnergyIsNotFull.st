@@ -1,4 +1,5 @@
 test
 testBotDoesNotReproductWhenEnergyIsNotFull
+	bot stub.
 	bot feedOn: 49.
-	(cells atPosition: 3 @ 2) hasNoBot should equal: true
+	bot should not receive reproduct
