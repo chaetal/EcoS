@@ -7,4 +7,4 @@ createWithDimensions: aPoint andField: aField
 			EcosCell
 				createWithPosition: x @ y
 				andField: aField
-				andEnergy: (EcosCell calculateEnergyBasedOnPosition: x @ y andHeight: aPoint y) ]
+				andEnergy: (EcosCell calculateEnergyBasedOnYposition: y andHeight: aPoint y) ]
