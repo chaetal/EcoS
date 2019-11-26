@@ -1,3 +1,3 @@
 testing
-canReproductIn: aCell
+canReproduceIn: aCell
 	^ (self getFreeNeighboursOf: aCell) isNotEmpty
