@@ -3,4 +3,8 @@ createWithDimensions: aPoint andField: aField
 	^ self
 		rows: aPoint y
 		columns: aPoint x
-		tabulate: [ :y :x | EcosCell createWithPosition: x @ y andField: aField andEnergy: 5 ]
+		tabulate: [ :y :x | 
+			EcosCell
+				createWithPosition: x @ y
+				andField: aField
+				andEnergy: (EcosCell calculateEnergyBasedOnPosition: x @ y andHeight: aPoint y) ]
