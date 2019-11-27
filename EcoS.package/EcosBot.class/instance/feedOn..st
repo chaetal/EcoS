@@ -1,3 +1,3 @@
 action
 feedOn: anEnergy
-	energy := energy + anEnergy
+	self energy: energy + anEnergy
