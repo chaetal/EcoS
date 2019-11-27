@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "AladievIlya 11/27/2019 21:32",
+	"super" : "Morph",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"height",
+		"window",
+		"position",
+		"field",
+		"fieldMorph"
+	],
+	"name" : "EcosButtonsBar",
+	"type" : "normal"
+}
