@@ -1,3 +1,3 @@
 action
 die
-	energy := 0
+	self energy: 0
