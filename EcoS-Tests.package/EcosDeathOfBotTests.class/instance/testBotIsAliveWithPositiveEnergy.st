@@ -1,5 +1,5 @@
 tests
-testBotLiveWithEnergyMoreThanZero
+testBotIsAliveWithPositiveEnergy
 	| actualResult |
 	bot energy: 50.
 	actualResult := bot isAlive.
