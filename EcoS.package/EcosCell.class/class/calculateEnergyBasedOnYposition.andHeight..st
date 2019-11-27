@@ -1,12 +1,12 @@
 helper
 calculateEnergyBasedOnYposition: yPos andHeight: aHeight
-	| quarter twoQuarters |
-	quarter := aHeight // 4.
-	twoQuarters := aHeight * 2 // 4.
-	(yPos >= 0 and: yPos < quarter)
+	| firstBoundary secondBoundary |
+	firstBoundary := aHeight // 4.
+	secondBoundary := firstBoundary + (aHeight * 2 // 4).
+	(yPos >= 0 and: yPos < firstBoundary)
 		ifTrue: [ ^ 10 ].
-	(yPos >= quarter and: yPos < twoQuarters)
+	(yPos >= firstBoundary and: yPos < secondBoundary)
 		ifTrue: [ ^ 7 ].
-	(yPos >= twoQuarters and: yPos < aHeight)
+	(yPos >= secondBoundary and: yPos <= aHeight)
 		ifTrue: [ ^ 4 ].
 	^ -1
