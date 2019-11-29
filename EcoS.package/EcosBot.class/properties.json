@@ -5,6 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
+		"InitialEnergy",
 		"MaxEnergy"
 	],
 	"instvars" : [
