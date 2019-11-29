@@ -1,3 +1,3 @@
 testing
 isAlive
-	^ energy > 0.
+	^ energy > 0
