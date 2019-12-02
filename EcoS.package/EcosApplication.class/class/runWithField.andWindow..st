@@ -5,9 +5,4 @@ runWithField: aField andWindow: aWindow
 	application
 		field: aField;
 		window: aWindow.
-		
-	
-	application window open.
-	
-	
-	
+	application window open
