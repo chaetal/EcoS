@@ -5,5 +5,6 @@ collectIntentions
 	cellMatrix
 		do: [ :cell | 
 			cell hasBot
-				ifTrue: [ intentions add: cell bot intention ] ].
+				ifTrue: [ cell bot isAlive
+						ifTrue: [ intentions add: cell bot intention ] ] ].
 	^ intentions
