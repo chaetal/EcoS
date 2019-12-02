@@ -6,10 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"field",
+		"bot",
 		"cell",
-		"position"
+		"field",
+		"action"
 	],
-	"name" : "EcosCellTests",
+	"name" : "EcosDeathOfBotTests",
 	"type" : "normal"
 }

@@ -1,4 +1,5 @@
 running
 setUp
 	super setUp.
-	field := EcosField createWithDimensions: 5 @ 5
+	cell := EcosCell new.
+	field := EcosField createWithDimensions: 10 @ 10
