@@ -8,11 +8,11 @@ field: aField width: aWidth height: aHeight
 		
 	"Отрисовка"
 	mainWindow
-		display: (mainWindow createFieldMorph: mainWindow field);
+		addMorph: (mainWindow createFieldMorph: mainWindow field);
 		buttonsBar: mainWindow createButtonsBar;
-		display: mainWindow buttonsBar.
+		addMorph: mainWindow buttonsBar.
 		
 	mainWindow
-		buttonsBar display: mainWindow createButtonMorph.
+		buttonsBar addMorph: mainWindow createButtonMorph.
 	
 	^ mainWindow
