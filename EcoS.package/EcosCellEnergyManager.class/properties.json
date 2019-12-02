@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "PavelKopylov 10/27/2019 22:27",
+	"commentStamp" : "ArtyomBalashov 11/30/2019 23:11",
 	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cellMatrix",
-		"cellEnergyManager"
+		"upperBoundary",
+		"lowerBoundary",
+		"height"
 	],
-	"name" : "EcosField",
+	"name" : "EcosCellEnergyManager",
 	"type" : "normal"
 }
