@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Niko 11/18/2019 19:50",
+	"super" : "TestCase",
+	"category" : "EcoS-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EcosGenomeTests",
+	"type" : "normal"
+}
