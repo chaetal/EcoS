@@ -4,5 +4,5 @@ createIn: aCell withGenome: aGenome withAnnouncer: announcer
 	tmpBot := self new
 		cell: aCell;
 		genome: aGenome;
-		announcer: announcer
-		
+		announcer: announcer.
+	^ tmpBot

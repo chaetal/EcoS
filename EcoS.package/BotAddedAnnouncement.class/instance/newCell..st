@@ -1,4 +1,4 @@
 accessing
 newCell: anObject
-	Transcript show: 'WOOOOW3' .
+	Transcript show: 'Add new cell'.
 	newCell := anObject
