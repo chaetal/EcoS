@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "EcosBot",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EcosScenarioRunner",
+	"type" : "normal"
+}
