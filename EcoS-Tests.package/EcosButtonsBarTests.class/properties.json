@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SystemWindow",
-	"category" : "EcoS",
+	"super" : "TestCase",
+	"category" : "EcoS-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"field",
-		"fieldMorph",
-		"buttonsBar"
+		"window"
 	],
-	"name" : "EcosWindow",
+	"name" : "EcosButtonsBarTests",
 	"type" : "normal"
 }
