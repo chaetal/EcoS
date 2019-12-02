@@ -1,3 +1,3 @@
 acccessing
-withNewCell: aCell
+to: aCell
 	^ self new newCell: aCell
