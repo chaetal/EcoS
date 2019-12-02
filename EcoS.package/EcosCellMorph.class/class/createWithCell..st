@@ -3,5 +3,5 @@ createWithCell: aCell
 	| cellMorph |
 	cellMorph := self new.
 	aCell hasBot
-		ifTrue: [ cellMorph defineСolor: aCell bot ].
+		ifTrue: [ cellMorph color: (self defineСolor: aCell bot) ].
 	^ cellMorph
