@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"bot",
-		"cell"
+		"cell",
+		"field",
+		"action"
 	],
 	"name" : "EcosDeathOfBotTests",
 	"type" : "normal"
