@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	color := Color lightBlue 
+	color := Color veryLightGray

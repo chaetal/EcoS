@@ -4,6 +4,15 @@ field: aField width: aWidth height: aHeight
 	mainWindow := self new
 		width: aWidth;
 		height: aHeight;
-		field: aField;
-		drawMorphs.
+		field: aField.
+		
+	"Отрисовка"
+	mainWindow
+		display: (mainWindow createFieldMorph: mainWindow field);
+		buttonsBar: mainWindow createButtonsBar;
+		display: mainWindow buttonsBar.
+		
+	mainWindow
+		buttonsBar display: mainWindow createButtonMorph.
+	
 	^ mainWindow

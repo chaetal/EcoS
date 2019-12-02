@@ -6,11 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"height",
-		"window",
-		"position",
-		"field",
-		"fieldMorph"
+		"position"
 	],
 	"name" : "EcosButtonsBar",
 	"type" : "normal"
