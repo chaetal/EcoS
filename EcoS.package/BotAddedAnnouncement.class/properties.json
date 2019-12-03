@@ -1,14 +1,13 @@
 {
-	"commentStamp" : "PavelKopylov 10/20/2019 16:46",
-	"super" : "Morph",
+	"commentStamp" : "",
+	"super" : "Announcement",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cell",
-		"announcer"
+		"newCell"
 	],
-	"name" : "EcosCellMorph",
+	"name" : "BotAddedAnnouncement",
 	"type" : "normal"
 }
