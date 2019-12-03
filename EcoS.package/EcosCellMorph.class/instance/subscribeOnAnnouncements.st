@@ -1,18 +1,16 @@
 announcement handling
 subscribeOnAnnouncements
-	Transcript show: self position.
 	self announcer
 		when: BotAddedAnnouncement
 			do: [ :announcement | 
 			announcement newCell = self cell
-				ifTrue: [ self
+				ifTrue: [ Transcript show: self cell position. self
 						addMorph:
-							(EcosBotMorph new
-								position: self position;
-								width: self width;
-								height: self height) ] ];
+							(EcosBotMorph
+								createWith: self cell bot
+								position: self position
+								extent: self extent) ] ];
 		when: BotLeavedAnnouncement
 			do: [ :announcement | 
 			announcement prevCell = self cell
-				ifTrue: [ Transcript show: 'Remove'.
-					self removeAllMorphs ] ]
+				ifTrue: [ self removeAllMorphs ] ]

@@ -8,7 +8,7 @@
 	"instvars" : [
 		"cellMatrix",
 		"cellEnergyManager",
-        "announcer"
+		"announcer"
 	],
 	"name" : "EcosField",
 	"type" : "normal"

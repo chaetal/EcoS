@@ -6,4 +6,4 @@ window: aWindow field: aField drawingPosition: aDrawingPosition
 		extent: cellSize * aField dimensions;
 		position: aDrawingPosition.	
 	aWindow extent: self extent + aDrawingPosition.
-	self draw 
+	self display

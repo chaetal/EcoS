@@ -1,5 +1,5 @@
 canvas drawing
-draw
+display
 	field cellMatrix
 		do: [ :cell | 
 			self
