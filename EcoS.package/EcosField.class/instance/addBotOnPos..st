@@ -1,5 +1,3 @@
 adding
 addBotOnPos: aPos
-	EcosBot
-		createIn: (self cellMatrix atPosition: aPos)
-		withAnnouncer: announcer
+	self addBotInCell: (self cellMatrix atPosition: aPos)
