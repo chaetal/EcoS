@@ -1,5 +1,5 @@
 coloring
-defineСolor: aBot
+defineColor: aBot
 	| greenChannel |
 	aBot isAlive
 		ifTrue: [ greenChannel := self  energyRationing: aBot energy.

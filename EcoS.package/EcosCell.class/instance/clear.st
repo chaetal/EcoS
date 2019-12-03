@@ -1,3 +1,3 @@
 clearing
 clear
-	self bot: nil 
+	bot := nil 

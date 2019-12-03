@@ -9,7 +9,8 @@ subscribeOnAnnouncements
 							(EcosBotMorph
 								createWith: self cell bot
 								position: self position
-								extent: self extent) ] ];
+								extent: self extent
+								andAnnouncer: self announcer) ] ];
 		when: BotLeavedAnnouncement
 			do: [ :announcement | 
 			announcement prevCell = self cell
