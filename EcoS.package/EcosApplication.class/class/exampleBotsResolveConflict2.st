@@ -11,4 +11,5 @@ exampleBotsResolveConflict2
 	field
 		addBotOnPos: (field dimensions x // 2) @ 5
 		withGenome: secondBotGenome.
+	(field cellMatrix atPosition: (field dimensions x // 2) @ 5) bot energy: 99.
 	self runWithField: field andWindow: window
