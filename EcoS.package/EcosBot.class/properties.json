@@ -11,7 +11,8 @@
 	"instvars" : [
 		"genome",
 		"cell",
-		"energy"
+		"energy",
+		"announcer"
 	],
 	"name" : "EcosBot",
 	"type" : "normal"
