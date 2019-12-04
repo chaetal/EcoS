@@ -1,4 +1,4 @@
 tests
 testTheGenomeOfADeadBotContainsOnlyEcoDeathAction
 	bot die.
-	bot genome next class should equal: #EcosDeathAction
+	bot genome next class should equal: EcosDeathAction
