@@ -12,8 +12,3 @@ setUp
 		createIn: cell
 		withGenome: (EcosGenome on: {action})
 		withAnnouncer: announcer.
-	botMorph := EcosBotMorph
-		createWith: bot
-		position: 0 @ 0
-		extent: 0 @ 0
-		andAnnouncer: announcer
