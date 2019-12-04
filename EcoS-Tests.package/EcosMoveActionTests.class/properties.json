@@ -9,7 +9,8 @@
 		"field",
 		"action",
 		"bot",
-		"cell"
+		"cell",
+		"announcer"
 	],
 	"name" : "EcosMoveActionTests",
 	"type" : "normal"
