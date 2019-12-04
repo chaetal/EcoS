@@ -1,4 +1,13 @@
 running
 setUp
 	super setUp.
-	bot := EcosBot new
+	field := EcosField createWithDimensions: 2 @ 2.
+	cell := field cellMatrix atPosition: 1 @ 1.
+	announcer := Mock named: 'announcer'.
+	announcer stub when: Any do: Any.
+	announcer stub announce: Any.
+	field announcer: announcer.
+	bot := EcosBot
+		createIn: cell
+		withGenome: (EcosGenome on: {action})
+		withAnnouncer: announcer.
