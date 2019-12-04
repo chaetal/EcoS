@@ -1,6 +1,7 @@
 canvas drawing
 createCellMorph: aCell withPosition: aPoint
-	^ (EcosCellMorph createWithCell: aCell)
-		position: aPoint;
-		width: cellSize;
-		height: cellSize
+	^ EcosCellMorph
+		createWithCell: aCell
+		atPosition: aPoint
+		extent: cellSize
+		andAnnouncer: announcer

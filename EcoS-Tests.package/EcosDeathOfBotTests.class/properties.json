@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "EcoS-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bot",
+		"cell",
+		"field",
+		"action"
+	],
+	"name" : "EcosDeathOfBotTests",
+	"type" : "normal"
+}

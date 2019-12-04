@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"cell",
+		"announcer"
+	],
 	"name" : "EcosCellMorph",
 	"type" : "normal"
 }

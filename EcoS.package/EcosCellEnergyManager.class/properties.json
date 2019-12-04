@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "ArtyomBalashov 11/30/2019 23:11",
+	"super" : "Object",
+	"category" : "EcoS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"upperBoundary",
+		"lowerBoundary",
+		"height"
+	],
+	"name" : "EcosCellEnergyManager",
+	"type" : "normal"
+}

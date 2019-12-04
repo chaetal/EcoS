@@ -1,3 +1,5 @@
 instance creation
 createButtonMorph
-	^ EcosStepButton withClickHandler: [  ] position: 0 @ 30
+	^ EcosStepButton
+		withClickHandler: [ field doStep.]
+		position: 0 @ 30
