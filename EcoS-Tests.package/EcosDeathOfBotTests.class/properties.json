@@ -9,7 +9,9 @@
 		"bot",
 		"cell",
 		"field",
-		"action"
+		"action",
+		"announcer",
+		"botMorph"
 	],
 	"name" : "EcosDeathOfBotTests",
 	"type" : "normal"

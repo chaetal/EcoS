@@ -1,3 +1,3 @@
 accessing
 pay: anObject
-	energy := energy - anObject
+	self energy: energy - anObject

@@ -2,6 +2,6 @@ instance creation
 createFieldMorph: aField
 	fieldMorph := EcosFieldMorph
 		window: self
-		field: aField
-		drawingPosition: 0 @ 30.
+		field: field
+		drawingPosition: 0 @ 70.
 	^ fieldMorph
