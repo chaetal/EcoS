@@ -1,6 +1,6 @@
 running
 setUp
-	| announcer field cell |
+	| announcer cell |
 	super setUp.
 	announcer := Mock named: 'announcer'.
 	announcer stub announce: Any.
