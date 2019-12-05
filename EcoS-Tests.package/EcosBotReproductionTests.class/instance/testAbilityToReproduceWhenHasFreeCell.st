@@ -1,4 +1,4 @@
-test
+tests
 testAbilityToReproduceWhenHasFreeCell
 	| currentCell |
 	currentCell := bot cell.

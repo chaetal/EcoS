@@ -7,10 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"bot",
-		"cell",
-		"cellMorph",
-		"field"
+		"botMorph"
 	],
-	"name" : "EcosCellMorphTests",
+	"name" : "EcosBotMorphTests",
 	"type" : "normal"
 }

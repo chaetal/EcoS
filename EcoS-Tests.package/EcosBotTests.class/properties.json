@@ -6,9 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"field",
-		"cell",
-		"action",
 		"bot"
 	],
 	"name" : "EcosBotTests",
