@@ -1,5 +1,5 @@
 tests
-testBotHasDarkGreenColorWhenBotHasLowEnergy
+testMorphHasDarkGreenColorWhenBotHasLowEnergy
 	| actualResult expectedResult |
 	bot energy: 10.
 	expectedResult := Color r: 0 g: 0.3 b: 0.
