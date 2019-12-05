@@ -1,4 +1,4 @@
-test
+tests
 testDisabilityToReproduceWhenHasNoFreeCell
 	| currentCell |
 	field addBotOnPos: 3 @ 2.

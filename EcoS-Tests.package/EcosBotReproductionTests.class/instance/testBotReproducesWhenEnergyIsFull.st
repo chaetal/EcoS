@@ -1,4 +1,4 @@
-test
+tests
 testBotReproducesWhenEnergyIsFull
 	bot stub.
 	bot feedOn: 50.

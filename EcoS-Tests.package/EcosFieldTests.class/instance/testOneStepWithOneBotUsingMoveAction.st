@@ -6,7 +6,8 @@ testOneStepWithOneBotUsingMoveAction
 	cell := field cellMatrix atPosition: 1 @ 1.
 	bot := EcosBot
 		createIn: cell
-		withGenome: (EcosGenome on: {(EcosMoveAction direction: 1 @ 1)}).
+		withGenome: (EcosGenome on: {(EcosMoveAction direction: 1 @ 1)})
+		withAnnouncer: announcer.
 	field doStep.
 	(field content
 		has: bot in: (field cellMatrix atPosition: newPosition);
