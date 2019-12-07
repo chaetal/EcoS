@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "EcoS-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"field",
+		"position",
+		"cell",
+		"cellMorph"
+	],
+	"name" : "EcosCellMorphTests",
+	"type" : "normal"
+}

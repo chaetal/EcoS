@@ -2,6 +2,6 @@ initialization
 initialize
 	super initialize.
 	self
-		color: (Color veryVeryLightGray alpha: 0.8);
+		color: (Color r: 0 g: 0 b: 1.0);
 		borderWidth: 1;
-		borderColor: Color veryLightGray
+		borderColor: Color white

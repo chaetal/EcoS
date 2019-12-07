@@ -3,7 +3,8 @@ run
 	| application |
 	application := self new.
 	application
-		field: (EcosField createWithDimensions: 120 @ 90);
+		"field: (EcosField createWithDimensions: 120 @ 90);"
+		field: (EcosField createWithDimensions: 40 @ 40);
 		window: (EcosWindow field: application field width: 800 height: 600).
 	application field
 		addBotOnPos: (application field dimensions x - 3) @ 5
