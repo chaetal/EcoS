@@ -7,4 +7,4 @@ testCellShouldHaveDarkBlueColor
 		atPosition: position
 		extent: 1 @ 1
 		andAnnouncer: field announcer.
-	cellMorph color should be: (Color r: 0.588 g: 0.588 b: 1.0)
+	cellMorph color should equal: (Color r: 0.059 g: 0.059 b: 1.0)
