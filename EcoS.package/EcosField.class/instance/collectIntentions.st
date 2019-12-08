@@ -1,6 +1,3 @@
 collecting
 collectIntentions
-	| intentions |
-	intentions := OrderedCollection new.
-	self collectBots do: [ :bot | intentions add: bot intention ].
-	^ intentions
+	^ self collectBots collect: [ :bot | bot intention ]
