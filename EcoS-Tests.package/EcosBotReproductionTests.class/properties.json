@@ -8,8 +8,7 @@
 	"instvars" : [
 		"field",
 		"cells",
-		"bot",
-		"window"
+		"bot"
 	],
 	"name" : "EcosBotReproductionTests",
 	"type" : "normal"

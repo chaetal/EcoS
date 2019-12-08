@@ -2,8 +2,5 @@ collecting
 collectIntentions
 	| intentions |
 	intentions := OrderedCollection new.
-	cellMatrix
-		do: [ :cell | 
-			cell hasBot
-				ifTrue: [ intentions add: cell bot intention ] ].
+	self collectBots do: [ :bot | intentions add: bot intention ].
 	^ intentions
