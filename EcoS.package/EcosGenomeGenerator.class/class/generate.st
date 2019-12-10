@@ -1,6 +1,6 @@
 generating
 generate
-	| genomeList |
-	genomeList := OrderedCollection new.
-	genomeList add: (EcosFeedAction new).
-	^ EcosGenome on: genomeList
+	| genome |
+	genome := OrderedCollection new.
+	genome add: (EcosGenomeGenerator genomeList: 100).
+	^ EcosGenome on: genome
