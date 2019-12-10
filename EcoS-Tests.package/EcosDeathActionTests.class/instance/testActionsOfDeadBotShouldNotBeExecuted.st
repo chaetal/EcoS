@@ -1,5 +1,5 @@
 tests
-testTheActionsOfADeadBotShouldNotBeExecuted
+testActionsOfDeadBotShouldNotBeExecuted
 	| deathAction actualResult |
 	bot die.
 	deathAction := EcosDeathAction new.
