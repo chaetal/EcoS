@@ -2,5 +2,5 @@ generating
 generate
 	| genome |
 	genome := OrderedCollection new.
-	genome add: (EcosGenomeGenerator genomeList: 100).
+	1 to: 64 do: [ :i| genome add: (EcosGenomeGenerator takeAction: (1 to: 9) atRandom )].
 	^ EcosGenome on: genome
