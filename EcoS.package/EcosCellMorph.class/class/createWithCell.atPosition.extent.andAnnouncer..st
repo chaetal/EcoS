@@ -6,4 +6,4 @@ createWithCell: aCell atPosition: aPoint extent: anExtentPoint andAnnouncer: anA
 		announcer: anAnnouncer;
 		cell: aCell;
 		color: (EcosCellColorManager colorBasedOnEnergy: aCell energy);
-		subscribeOnAnnouncements.
+		subscribeOnAnnouncements

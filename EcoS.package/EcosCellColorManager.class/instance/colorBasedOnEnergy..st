@@ -1,4 +1,4 @@
-as yet unclassified
+action
 colorBasedOnEnergy: anEnergy
 	anEnergy = 10
 		ifTrue: [ ^ Color r: 0.058 g: 0.764 b: 1 ].
