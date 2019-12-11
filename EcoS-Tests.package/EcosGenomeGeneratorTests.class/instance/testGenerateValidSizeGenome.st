@@ -3,4 +3,4 @@ testGenerateValidSizeGenome
 	| genome size |
 	size := 22.
 	genome := EcosGenomeGenerator generate: size.
-	genome at: 1 should equal: EcosAction 
+	genome size should equal: size 
