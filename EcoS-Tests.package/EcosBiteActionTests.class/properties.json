@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "EcoS-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"field",
+		"action",
+		"firstBot",
+		"secondBot",
+		"firstCell",
+		"secondCell",
+		"announcer"
+	],
+	"name" : "EcosBiteActionTests",
+	"type" : "normal"
+}
