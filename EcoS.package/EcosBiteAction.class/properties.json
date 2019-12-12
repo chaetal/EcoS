@@ -2,10 +2,14 @@
 	"commentStamp" : "",
 	"super" : "EcosAction",
 	"category" : "EcoS",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"direction"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"direction"
+	],
 	"name" : "EcosBiteAction",
 	"type" : "normal"
 }

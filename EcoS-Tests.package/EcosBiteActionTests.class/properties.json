@@ -2,7 +2,13 @@
 	"commentStamp" : "",
 	"super" : "TestCase",
 	"category" : "EcoS-Tests",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"field",
+		"announcer",
+		"action",
+		"firstCell",
+		"firstBot"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
