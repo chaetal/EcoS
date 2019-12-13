@@ -8,4 +8,4 @@ testBotBitingWithEnergySpending
 	firstBot energy: 50.
 	action basicExecuteFor: firstBot within: field.
 	actualResult := firstBot energy.
-	actualResult should equal: 30.
+	actualResult should equal: 30

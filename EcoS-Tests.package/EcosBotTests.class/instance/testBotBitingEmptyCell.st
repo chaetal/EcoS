@@ -4,6 +4,6 @@ testBotBitingEmptyCell
 	emptyCell := EcosCell
 		createWithPosition: 2 @ 1
 		andField: field
-		andEnergy: 30. 
+		andEnergy: 30.
 	bot biteTo: emptyCell.
-	emptyCell energy should equal: 30.
+	emptyCell energy should equal: 30
