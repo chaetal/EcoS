@@ -1,16 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SystemWindow",
+	"super" : "Object",
 	"category" : "EcoS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"field",
-		"fieldMorph",
-		"buttonsBar",
-		"process"
+		"playing"
 	],
-	"name" : "EcosWindow",
+	"name" : "EcosVideoProcess",
 	"type" : "normal"
 }

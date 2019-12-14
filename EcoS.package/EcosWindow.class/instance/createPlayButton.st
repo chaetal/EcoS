@@ -1,5 +1,5 @@
 as yet unclassified
 createPlayButton
 	^ (EcosStepButton
-		withClickHandler: [ [[ field doStep ] repeat] forkAt: 20 ]
+		withClickHandler: [ process playAt: field ]
 		position: 50 @ 30) label: 'Play'

@@ -13,5 +13,6 @@ field: aField width: aWidth height: aHeight
 		addMorph: mainWindow buttonsBar.
 	mainWindow buttonsBar
 		addMorph: mainWindow createDoStepButton;
-		addMorph: mainWindow createPlayButton.
+		addMorph: mainWindow createPlayButton;
+		addMorph: mainWindow createStopButton.
 	^ mainWindow
