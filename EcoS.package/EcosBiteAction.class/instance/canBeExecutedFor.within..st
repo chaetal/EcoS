@@ -2,5 +2,5 @@ testing
 canBeExecutedFor: aBot within: aField
 	| pos |
 	pos := aBot cell position + self direction.
-	^ aBot energy > self energyCost
-		& (aBot cell position ~= aField getCorrectPosition: pos)
+	^ (aBot hasEnoughtEnergyToDo: self)
+		and: (aBot cell position ~= aField getCorrectPosition: pos)

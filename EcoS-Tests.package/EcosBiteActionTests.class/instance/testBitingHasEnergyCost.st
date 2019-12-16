@@ -1,5 +1,3 @@
 tests
 testBitingHasEnergyCost
-	| actualResult |
-	actualResult := action energyCost.
-	actualResult should equal: 20
+	(action energyCost > 0) should equal: true
