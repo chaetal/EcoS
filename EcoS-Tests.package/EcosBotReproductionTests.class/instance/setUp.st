@@ -9,4 +9,4 @@ setUp
 	cells := field cellMatrix.
 	self createBots.
 	bot := (cells atPosition: 2 @ 2) bot.
-	bot genome: (EcosGenome on: {EcosFeedAction new})
+	bot genome: self generateFeedGenome
