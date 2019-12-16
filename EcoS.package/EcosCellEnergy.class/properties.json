@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "EcosEnergy",
+	"name" : "EcosCellEnergy",
 	"type" : "normal"
 }
