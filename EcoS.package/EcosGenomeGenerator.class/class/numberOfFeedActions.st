@@ -1,0 +1,3 @@
+accessing
+numberOfFeedActions
+	^ 8
