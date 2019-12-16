@@ -1,3 +1,3 @@
 tests
 testEcosMoveActionHasEnergyCost
-	action energyCost should equal: 10
+	(action energyCost > 0) should equal: true
