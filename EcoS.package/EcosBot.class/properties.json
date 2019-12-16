@@ -12,7 +12,8 @@
 		"genome",
 		"cell",
 		"energy",
-		"announcer"
+		"announcer",
+		"age"
 	],
 	"name" : "EcosBot",
 	"type" : "normal"
