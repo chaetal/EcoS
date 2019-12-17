@@ -1,5 +1,5 @@
 accessing
-moveActions
+biteActions
 	| biteActions |
 	biteActions := OrderedCollection new.
 	-1 to: 1 do: [ :i | 
