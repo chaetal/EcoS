@@ -1,6 +1,6 @@
 running
 setUp
 	super setUp.
-	bot := EcosBot new.
-	cell := EcosCell new.
-	cell bot: bot.
+	field := EcosField createWithDimensions: 10 @ 10.
+	EcosWindow field: field width: 0 height: 0.
+	

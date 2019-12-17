@@ -5,14 +5,14 @@ field: aField width: aWidth height: aHeight
 		width: aWidth;
 		height: aHeight;
 		field: aField.
-		
+
 	"Отрисовка"
 	mainWindow
 		addMorph: (mainWindow createFieldMorph: mainWindow field);
 		buttonsBar: mainWindow createButtonsBar;
 		addMorph: mainWindow buttonsBar.
-		
-	mainWindow
-		buttonsBar addMorph: mainWindow createButtonMorph.
-	
+	mainWindow buttonsBar
+		addMorph: mainWindow createDoStepButton;
+		addMorph: mainWindow createPlayButton;
+		addMorph: mainWindow createStopButton.
 	^ mainWindow

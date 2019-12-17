@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "EcosAction",
+	"category" : "EcoS",
+	"classinstvars" : [
+		"direction"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"direction"
+	],
+	"name" : "EcosBiteAction",
+	"type" : "normal"
+}

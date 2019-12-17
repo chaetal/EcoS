@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bot",
+		"field",
+		"position",
 		"cell",
-		"cellMorph",
-		"field"
+		"cellMorph"
 	],
 	"name" : "EcosCellMorphTests",
 	"type" : "normal"

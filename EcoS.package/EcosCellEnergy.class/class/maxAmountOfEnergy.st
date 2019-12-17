@@ -1,0 +1,3 @@
+accessing
+maxAmountOfEnergy
+	^ 10

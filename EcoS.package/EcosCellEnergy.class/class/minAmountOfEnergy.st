@@ -1,0 +1,3 @@
+accessing
+minAmountOfEnergy
+	^ 4

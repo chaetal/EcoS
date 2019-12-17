@@ -8,7 +8,8 @@
 	"instvars" : [
 		"field",
 		"fieldMorph",
-		"buttonsBar"
+		"buttonsBar",
+		"process"
 	],
 	"name" : "EcosWindow",
 	"type" : "normal"

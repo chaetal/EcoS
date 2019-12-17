@@ -1,9 +1,9 @@
 action
 energyBasedOnVerticalPosition: aPos
 	(aPos >= 0 and: aPos < upperBoundary)
-		ifTrue: [ ^ 10 ].
+		ifTrue: [ ^ EcosCellEnergy maxAmountOfEnergy ].
 	(aPos >= upperBoundary and: aPos < lowerBoundary)
-		ifTrue: [ ^ 7 ].
+		ifTrue: [ ^ EcosCellEnergy mediumAmountOfEnergy ].
 	(aPos >= lowerBoundary and: aPos <= height)
-		ifTrue: [ ^ 4 ].
+		ifTrue: [ ^ EcosCellEnergy minAmountOfEnergy ].
 	^ -1

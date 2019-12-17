@@ -1,0 +1,3 @@
+accessing
+mediumAmountOfEnergy
+	^ 7
