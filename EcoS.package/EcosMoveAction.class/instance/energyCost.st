@@ -1,3 +1,3 @@
 accessing
 energyCost
-	^ 10
+	^ 5
