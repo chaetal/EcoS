@@ -4,7 +4,7 @@ subscribeOnAnnouncements
 		when: BotAddedAnnouncement
 			do: [ :announcement | 
 			announcement newCell = self cell
-				ifTrue: [ Transcript show: self cell position. self
+				ifTrue: [ self
 						addMorph:
 							(EcosBotMorph
 								createWith: self cell bot
@@ -14,4 +14,5 @@ subscribeOnAnnouncements
 		when: BotLeavedAnnouncement
 			do: [ :announcement | 
 			announcement prevCell = self cell
-				ifTrue: [ self removeAllMorphs ] ]
+				ifTrue: [ self submorphsDo: [ :subm | self announcer unsubscribe: subm ].
+					self removeAllMorphs ] ]
